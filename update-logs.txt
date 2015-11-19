@@ -1,0 +1,47 @@
+# v1.9.05
+
+- nicer output formatting
+- fixing a minor bug over variable counter reset of completeness statements in RandomGenerator.java
+
+# v1.9.04
+
+- The version has been checked together with Simon for the implementations of the fast retrieval techniques.
+
+# v1.9.03
+
+- The associated CONSTRUCT queries of the CSs are generated during the completeness reasoning.
+
+# v1.9.02
+
+- Everything is already neat, but:
+Precomputing the associated CONSTRUCT queries of the completeness statements can be problematic
+if we were to generate 1 mio statements (slow, out-of-memory)!
+
+# v1.9.01
+
+- Corner.java is already neat (though minimalistic)!
+
+# v1.9
+
+- minor commenting
+- refactoring all except Corner.java and CORNERIndexingExperiment.java
+
+# v1.8.02
+
+- indexing library is now finished (modulo minor fixes)
+
+# v1.8.01
+
+- experimenting with many implementations of tries
+
+# v1.8
+
+- adding a new implementation of tries
+
+# v1.7
+
+- adding the index_structure package and the PowersetMap class
+
+# v1.6
+
+- fixing Maven compiler reference (http://stackoverflow.com/questions/14804945/maven-build-path-specifies-execution-environment-j2se-1-5-even-though-i-chang)
